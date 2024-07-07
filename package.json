@@ -1,6 +1,6 @@
 {
   "name": "@donewithwork/css-reset-tool",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Css reset tool for web development",
   "type": "module",
   "main": "./dist/index.js",
