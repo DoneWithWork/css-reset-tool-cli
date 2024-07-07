@@ -1,0 +1,34 @@
+{
+  "name": "@donewithwork/css-reset-tool",
+  "version": "0.0.1",
+  "description": "Css reset tool for web development",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "css-reset-tool": "./dist/index.js",
+    "@donewithwork/css-reset-tool": "./dist/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "css",
+    "reset",
+    "tool",
+    "web",
+    "development"
+  ],
+  "author": "DoneWithWork",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  }
+}
